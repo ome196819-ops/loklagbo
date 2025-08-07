@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - LokLagbo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>LokLagbo</h1>
+  </header>
+
+  <main class="container grid-2">
+    <section>
+      <h2>Sign Up as Hirer</h2>
+      <form id="hirer-signup-form" novalidate>
+        <label for="hirer-name">Full Name</label>
+        <input type="text" id="hirer-name" placeholder="Your name" autocomplete="name" required />
+        <label for="hirer-email">Email</label>
+        <input type="email" id="hirer-email" placeholder="you@example.com" autocomplete="email" required />
+        <button type="submit" class="btn">Create Hirer Account</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Sign Up as Worker</h2>
+      <form id="worker-signup-form" novalidate>
+        <label for="worker-name">Full Name</label>
+        <input type="text" id="worker-name" placeholder="Your name" autocomplete="name" required />
+        <label for="worker-email">Email</label>
+        <input type="email" id="worker-email" placeholder="you@example.com" autocomplete="email" required />
+        <button type="submit" class="btn btn-secondary">Create Worker Account</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
